@@ -1,0 +1,2 @@
+# @mjsdo/eslint-plugin
+

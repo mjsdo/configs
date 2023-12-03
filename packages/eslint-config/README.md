@@ -1,1 +1,0 @@
-# @mjsdo/eslint-config

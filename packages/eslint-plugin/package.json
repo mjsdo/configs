@@ -1,13 +1,24 @@
 {
-  "name": "@mjsdo/eslint-config",
+  "name": "@mjsdo/eslint-plugin",
+  "author": {
+    "name": "mjsdo"
+  },
   "version": "0.0.0",
   "type": "module",
   "license": "MIT",
-  "main": "./dist/index.js",
+  "main": "./dist/esm/index.js",
   "exports": {
     ".": {
       "require": "./dist/cjs/index.cjs",
       "import": "./dist/esm/index.js"
+    },
+    "./*": {
+      "require": "./dist/cjs/*.cjs",
+      "import": "./dist/esm/*.js"
+    },
+    "./*.js": {
+      "require": "./dist/cjs/*.cjs",
+      "import": "./dist/esm/*.js"
     }
   },
   "devDependencies": {
