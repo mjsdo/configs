@@ -1852,7 +1852,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mjsdo/eslint-plugin@workspace:*, @mjsdo/eslint-plugin@workspace:packages/eslint-plugin":
+"@mjsdo/eslint-plugin@workspace:packages/eslint-plugin":
   version: 0.0.0-use.local
   resolution: "@mjsdo/eslint-plugin@workspace:packages/eslint-plugin"
   dependencies:
@@ -1863,14 +1863,6 @@ __metadata:
     glob: "npm:^10.3.10"
   peerDependencies:
     eslint: ">=8"
-  languageName: unknown
-  linkType: soft
-
-"@mjsdo/testing@workspace:packages/testing":
-  version: 0.0.0-use.local
-  resolution: "@mjsdo/testing@workspace:packages/testing"
-  dependencies:
-    "@mjsdo/eslint-plugin": "workspace:*"
   languageName: unknown
   linkType: soft
 
