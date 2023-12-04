@@ -6,7 +6,7 @@
   "type": "module",
   "packageManager": "yarn@4.0.2",
   "scripts": {
-    "packages:release": "changeset release",
+    "packages:release": "changeset publish",
     "packages:version": "changeset version"
   },
   "devDependencies": {
