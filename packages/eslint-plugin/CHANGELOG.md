@@ -1,5 +1,11 @@
 # @mjsdo/eslint-plugin
 
+## 0.0.3
+
+### Patch Changes
+
+- [`c4e40b6`](https://github.com/mjsdo/configs/commit/c4e40b69c8965dc6adf735485225fe0bd43fd9da) Thanks [@mjsdo](https://github.com/mjsdo)! - build scripts 추가
+
 ## 0.0.2
 
 ### Patch Changes
