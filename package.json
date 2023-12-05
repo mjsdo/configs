@@ -6,6 +6,7 @@
   "type": "module",
   "packageManager": "yarn@4.0.2",
   "scripts": {
+    "packages:build": "nx run-many -t build",
     "packages:release": "changeset publish",
     "packages:version": "changeset version"
   },
