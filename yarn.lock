@@ -1862,7 +1862,10 @@ __metadata:
     eslint-plugin-import: "npm:^2.29.0"
     glob: "npm:^10.3.10"
   peerDependencies:
+    "@typescript-eslint/eslint-plugin": ^6.13.1
+    "@typescript-eslint/parser": ^6.13.1
     eslint: ">=8"
+    eslint-plugin-import: ^2.29.0
   languageName: unknown
   linkType: soft
 
@@ -6799,6 +6802,12 @@ __metadata:
   checksum: 89f6bba1d05d425156c0910982f9344d9e4aebf12d64bfa1f460d93c24baa7bc4c4a21d355fbd7153c316433df0538f64d0ae6e336cc4a69fdda4f85d62bc79d
   languageName: node
   linkType: hard
+
+"testing-b819d3@workspace:packages/testing":
+  version: 0.0.0-use.local
+  resolution: "testing-b819d3@workspace:packages/testing"
+  languageName: unknown
+  linkType: soft
 
 "text-table@npm:^0.2.0":
   version: 0.2.0
