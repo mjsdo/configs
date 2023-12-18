@@ -29,7 +29,10 @@
     "glob": "^10.3.10"
   },
   "peerDependencies": {
-    "eslint": ">=8"
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "eslint": ">=8",
+    "eslint-plugin-import": "^2.29.0"
   },
   "packageManager": "yarn@4.0.2",
   "scripts": {
