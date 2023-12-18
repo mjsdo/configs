@@ -1,5 +1,12 @@
 # @mjsdo/eslint-plugin
 
+## 0.0.5
+
+### Patch Changes
+
+- [`58d44f4`](https://github.com/mjsdo/configs/commit/58d44f470294e1dfbe9326ab45bdeb9ddc20e09f) Thanks [@mjsdo](https://github.com/mjsdo)! - - update readme.md
+  - update peer-dependencies
+
 ## 0.0.4
 
 ### Patch Changes
